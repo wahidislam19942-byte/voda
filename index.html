@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Football Hub</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#0b1c3d;
+color:white;
+}
+
+header{
+background:#02122e;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:26px;
+font-weight:bold;
+color:#1da1ff;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#1da1ff;
+}
+
+.hero{
+height:420px;
+background:url("https://picsum.photos/1600/700?football") center/cover;
+display:flex;
+align-items:center;
+padding-left:60px;
+}
+
+.hero h1{
+font-size:48px;
+max-width:600px;
+}
+
+.section{
+width:92%;
+margin:auto;
+margin-top:40px;
+}
+
+.section h2{
+border-left:5px solid #1da1ff;
+padding-left:10px;
+}
+
+.matches{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.match-card{
+background:#102a5e;
+padding:20px;
+border-radius:8px;
+text-align:center;
+}
+
+.match-card h3{
+margin:10px 0;
+}
+
+.news-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.news-card{
+background:#102a5e;
+border-radius:8px;
+overflow:hidden;
+}
+
+.news-card img{
+width:100%;
+}
+
+.news-card div{
+padding:15px;
+}
+
+.tournament{
+background:#06163a;
+padding:40px;
+margin-top:40px;
+text-align:center;
+}
+
+footer{
+background:#02122e;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">FOOTBALL HUB</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Matches</a>
+<a href="#">Teams</a>
+<a href="#">News</a>
+<a href="#">Tournaments</a>
+</nav>
+
+</header>
+
+
+<div class="hero">
+<h1>World Football Championship Updates</h1>
+</div>
+
+
+<div class="section">
+
+<h2>Upcoming Matches</h2>
+
+<div class="matches">
+
+<div class="match-card">
+<h3>Brazil vs France</h3>
+<p>12 July | 19:00</p>
+</div>
+
+<div class="match-card">
+<h3>Argentina vs Spain</h3>
+<p>13 July | 21:00</p>
+</div>
+
+<div class="match-card">
+<h3>Germany vs England</h3>
+<p>14 July | 18:00</p>
+</div>
+
+<div class="match-card">
+<h3>Portugal vs Italy</h3>
+<p>15 July | 20:00</p>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="section">
+
+<h2>Latest Football News</h2>
+
+<div class="news-grid">
+
+<div class="news-card">
+<img src="https://picsum.photos/400/250?1">
+<div>
+<h3>Star player scores hat-trick</h3>
+<p>Latest football highlights and match analysis.</p>
+</div>
+</div>
+
+<div class="news-card">
+<img src="https://picsum.photos/400/250?2">
+<div>
+<h3>Top teams prepare for finals</h3>
+<p>Training sessions begin before big matches.</p>
+</div>
+</div>
+
+<div class="news-card">
+<img src="https://picsum.photos/400/250?3">
+<div>
+<h3>Young talents rising</h3>
+<p>New generation footballers impress fans.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="tournament">
+
+<h2>Global Football Tournaments</h2>
+
+<p>Follow the latest updates from international competitions organized by FIFA.</p>
+
+</div>
+
+
+<footer>
+
+© 2026 Football Hub | Inspired by FIFA.com design
+
+</footer>
+
+</body>
+</html>
